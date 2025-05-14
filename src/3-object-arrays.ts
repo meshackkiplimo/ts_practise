@@ -36,15 +36,33 @@ const car:{
     }
 
 }
-console.log(`type of car is ${typeof car}`)
-console.log(`type of car is ${typeof car.brand}`)
-console.log(`type of car is ${typeof car.model}`)
-console.log(`type of car is ${typeof car.year}`)
-console.log(`type of car is ${typeof car.features}`)
-console.log(`type of car is ${typeof car.start}`)
-car.start()
+
+let arr1:number[] = [1,2,3,4,5]
+let colors:string[] = ["red","green","blue"]
+let messi: Array<number> = [1,2,3,4,5]
+//array methods 
+// colors.push("yellow")
+// console.log(colors)
+// console.log(colors.length)
+// console.log(colors[0])
+// colors.shift()
+// console.log(colors)
+// console.log(colors.length)
+// colors.unshift("purple")
+// console.log(colors)
+
+// tuples
+let person:[string,number] = ["John",20]
+let person2:[string,number] = ["Jane",25]
+let person3:[string,number] = ["Doe",30]    
 
 
 }
+
+// array methods
+
+
+
+
 export default objectsArraysTuples;
 
